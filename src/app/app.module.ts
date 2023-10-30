@@ -11,6 +11,7 @@ import { HeaderHomeComponent } from './layout/header-home/header-home.component'
 import { HeaderWebComponent } from './layout/header-web/header-web.component';
 import { FooterHomeComponent } from './layout/footer-home/footer-home.component';
 import { FooterWebComponent } from './layout/footer-web/footer-web.component';
+import { EmptyComponent } from './shared/empty/empty.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterWebComponent } from './layout/footer-web/footer-web.component';
     HeaderHomeComponent,
     HeaderWebComponent,
     FooterHomeComponent,
-    FooterWebComponent
+    FooterWebComponent,
+    EmptyComponent
   ],
   imports: [
     BrowserModule,
