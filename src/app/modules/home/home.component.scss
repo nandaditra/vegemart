@@ -1,0 +1,69 @@
+.jumbotron-title {
+    margin-top:0.5em;
+    font-weight: 700;
+    font-size:60px;
+    color:#8EA84B;
+}
+
+.jumbotron-paragraph {
+    margin:1em 0px;
+    color:#3C5949;
+    font-size:20px;
+}
+
+.btn-shopping {
+    margin:1em 0em;
+    background-color: #8EA84B;
+    color:#fff;
+    padding:0.5em 3.5em;
+    font-size: 20px;
+}
+
+.section-title {
+    font-weight: 700;
+    color:#8EA84B;
+    font-size: 48px;
+}
+
+.testimonial {
+    padding:3em 15em;
+}
+
+.img-profile {
+    border-radius: 50%;
+    margin:auto;
+    width:20%;
+}
+
+.card-header {
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 750px) {
+    .jumbotron-title {
+        margin-top:0.5em;
+        font-weight: 700;
+        font-size:40px;
+        color:#8EA84B;
+    }
+ 
+    .jumbotron-paragraph {
+        margin:1em 0px;
+        color:#3C5949;
+        font-size:16px;
+    }
+
+    .section-title {
+        font-weight: 700;
+        color:#8EA84B;
+        font-size: 35px;
+    }
+    
+    .product-text {
+        text-decoration: line-through;
+    }
+    
+    .testimonial {
+        padding:3em 4em;
+    }
+}

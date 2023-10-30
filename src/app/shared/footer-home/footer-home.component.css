@@ -1,0 +1,8 @@
+.list-group {
+    list-style-type: none;
+}
+
+address {
+    font-style: italic;
+    font-size: 14px;
+}
