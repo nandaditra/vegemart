@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Lexend} from 'next/font/google'
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
-const lexend = Lexend({
+const poppins = Poppins({
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={lexend.className}
+        className={poppins.className}
       >
         {children}
       </body>

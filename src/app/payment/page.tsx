@@ -9,7 +9,7 @@ export default function Payment(){
     const [message, setMessage] = useState<string>("")
 
     async function PaymentBill() {
-
+        
     }
 
     console.log(payment)
